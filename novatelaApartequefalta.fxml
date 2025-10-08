@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1">
+  <tabs>
+    <Tab text="Personagem ">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="101.0" layoutY="21.0" text="A parte que falta - Jout Jout">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="txtfieldNome" layoutX="253.0" layoutY="107.0" promptText="Qual o seu nome?" />
+                  <Text fx:id="txtNome" layoutX="203.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Label layoutX="211.0" layoutY="57.0" text="Personagem ">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="txtIdade" layoutX="204.0" layoutY="147.0" text="Idade">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="txtfieldIdade" layoutX="253.0" layoutY="143.0" promptText="Qual sua idade?" />
+                  <TextField fx:id="txtfieldEstadoEmotivo" layoutX="253.0" layoutY="182.0" promptText="Qual seu estado?" />
+                  <Label fx:id="txtEstadoEmotivo" layoutX="152.0" layoutY="186.0" text="Estado emotivo">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btnpersonagemEnviar" layoutX="229.0" layoutY="231.0" mnemonicParsing="false" onAction="#personagemEnviar" text="Enviar" />
+               </children></AnchorPane>
+      </content>
+    </Tab>
+    <Tab text="PecaFaltante">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="141.0" layoutY="26.0" text="A parte que falta - Jout Jout">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="218.0" layoutY="61.0" text="PecaFaltante">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="txtfieldFormato" layoutX="266.0" layoutY="115.0" promptText="Qual seu formato?" />
+                  <TextField fx:id="txtfieldSimbolismo" layoutX="266.0" layoutY="195.0" promptText="O que simboliza?" />
+                  <Label fx:id="txtFormato" layoutX="204.0" layoutY="119.0" text="Formato">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="txtTamanho" layoutX="202.0" layoutY="158.0" text="Tamanho">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="txtSimbolismo" layoutX="185.0" layoutY="199.0" text="Simbolismo">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="txtfieldTamanho" layoutX="266.0" layoutY="154.0" promptText="Qual seu tamanho?" />
+                  <Button fx:id="btnpecafaltanteEnviar" layoutX="252.0" layoutY="252.0" mnemonicParsing="false" onAction="#pecafaltanteEnviar" text="Enviar" />
+               </children></AnchorPane>
+      </content>
+    </Tab>
+      <Tab text="Relacionamento">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="148.0" layoutY="29.0" text="A parte que falta - Jout Jout">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="239.0" layoutY="64.0" text="Relacionamento">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="txtfieldTipo" layoutX="260.0" layoutY="117.0" prefHeight="26.0" prefWidth="174.0" promptText="Qual tipo de relacionamento?" />
+                  <TextField fx:id="txtfieldDuracao" layoutX="260.0" layoutY="160.0" promptText="Quanto tempo durou?" />
+                  <TextField fx:id="txtfieldIntensidade" layoutX="260.0" layoutY="202.0" promptText="Qual intensidade?" />
+                  <Label fx:id="txtTipo" layoutX="223.0" layoutY="122.0" text="Tipo">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+                  <Label fx:id="txtDuracao" layoutX="202.0" layoutY="164.0" text="Duração">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+                  <Label fx:id="txtIntensidade" layoutX="182.0" layoutY="206.0" text="Intensidade">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+                  <Button fx:id="btnrelacionamentoEnviar" layoutX="260.0" layoutY="260.0" mnemonicParsing="false" onAction="#relacionamentoEnviar" text="Enviar" />
+               </children></AnchorPane>
+        </content>
+      </Tab>
+  </tabs>
+</TabPane>
