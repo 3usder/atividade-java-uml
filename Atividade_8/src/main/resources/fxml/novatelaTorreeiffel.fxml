@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<TabPane fx:controller="Atividade4.TorreEiffelController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1">
+  <tabs>
+    <Tab text="Estrutura">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="213.0" layoutY="14.0" text="Torre Eiffel">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="txtfieldAltura" layoutX="264.0" layoutY="114.0" promptText="Qual sua altura?" />
+                  <Text fx:id="txtAltura" layoutX="217.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Altura">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Label layoutX="249.0" layoutY="49.0" text="Estrutura">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="txtPeso" layoutX="220.0" layoutY="159.0" text="Peso">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="txtfielPeso" layoutX="264.0" layoutY="155.0" promptText="Qual seu peso?" />
+                  <TextField fx:id="txtfielRebites" layoutX="264.0" layoutY="191.0" promptText="Qual quantidade rebites?" />
+                  <Label fx:id="txtRebites" layoutX="206.0" layoutY="195.0" text="Rebites">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btnestruturaEnviar" layoutX="252.0" layoutY="250.0" mnemonicParsing="false" onAction="#estruturaEnviar" text="Enviar" />
+               </children></AnchorPane>
+      </content>
+    </Tab>
+    <Tab text="Mirante">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="213.0" layoutY="26.0" text="Torre Eiffel">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="246.0" layoutY="61.0" text="Mirante">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="txtfieldAndares" layoutX="264.0" layoutY="115.0" promptText="Quantos andares?" />
+                  <TextField fx:id="txtfieldVista" layoutX="264.0" layoutY="191.0" promptText="Como é a vista?" />
+                  <Label fx:id="txtAndares" layoutX="199.0" layoutY="119.0" text="Andares">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="txtCapacidade" layoutX="180.0" layoutY="158.0" text="Capacidade">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="txtVista" layoutX="208.0" layoutY="195.0" text="Vista">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="txtfieldCapacidades" layoutX="264.0" layoutY="154.0" promptText="Qual capacidade ?" />
+                  <Button fx:id="btnmiranteEnviar" layoutX="252.0" layoutY="245.0" mnemonicParsing="false" onAction="#miranteEnviar" text="Enviar" />
+               </children></AnchorPane>
+      </content>
+    </Tab>
+      <Tab text="Monumento">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="220.0" layoutY="26.0" text="Torre Eiffel">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="224.0" layoutY="61.0" text="Monumento">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="txtfieldAnoConstrucao" layoutX="295.0" layoutY="121.0" promptText="Qual ano de construção?" />
+                  <TextField fx:id="txtfieldArquiteto" layoutX="295.0" layoutY="160.0" promptText="Quem foi o arquiteto?" />
+                  <TextField fx:id="txtfieldEstiloArquitetonico" layoutX="295.0" layoutY="202.0" promptText="Qual foi o estilo?" />
+                  <Label fx:id="txtAnoContrucao" layoutX="169.0" layoutY="125.0" text="Ano de contrução">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+                  <Label fx:id="txtArquiteto" layoutX="215.0" layoutY="164.0" text="Arquiteto">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+                  <Label fx:id="txtEstiloArquitetonico" layoutX="159.0" layoutY="206.0" text="Estilo arquitetonico">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+                  <Button fx:id="btnmomumentoEnviar" layoutX="247.0" layoutY="264.0" mnemonicParsing="false" onAction="#monumentoEnviar" text="Enviar" />
+               </children></AnchorPane>
+        </content>
+      </Tab>
+  </tabs>
+</TabPane>

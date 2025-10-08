@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9a39643-c913-42d1-a820-3b93736281d0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Equalizador.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/manual_instrucoes_equalize.csv" beforeDir="false" />
-    </list>
+    <list default="true" id="c9a39643-c913-42d1-a820-3b93736281d0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,12 +13,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/atividade-java-uml" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -33,18 +31,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ApartequefaltaMainApp.executor": "Run",
     "Application.Artista.executor": "Run",
     "Application.Attvidade2.Controller.MainApp.executor": "Run",
     "Application.Carro.executor": "Run",
     "Application.Casa.executor": "Run",
     "Application.Equalizador.executor": "Run",
+    "Application.EqualizeMainApp.executor": "Run",
     "Application.MainApp.executor": "Run",
     "Application.ManualdeInstrucao.executor": "Run",
     "Application.Musica.executor": "Run",
+    "Application.OstribalistasMainApp.executor": "Run",
     "Application.PecaFaltante.executor": "Run",
     "Application.Pessoa.executor": "Run",
     "Application.Relacionamento.executor": "Run",
     "Application.Ritmo.executor": "Run",
+    "Application.TorreEiffelMainApp.executor": "Run",
     "Application.albumMusical.executor": "Run",
     "Application.composicaoVisual.executor": "Run",
     "Application.pecaFaltante.executor": "Run",
@@ -52,9 +54,8 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/elder/Documents/GitHub/atividade-java-uml/Atividade_8",
+    "last_opened_file_path": "C:/Users/elder/IdeaProjects/Atividade_8",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -70,17 +71,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\elder\IdeaProjects\Atividade_8\src\main\resources\fxml\Atividade2\fxml" />
       <recent name="C:\Users\elder\IdeaProjects\Atividade_8\src\main\resources\fxml" />
+      <recent name="C:\Users\elder\IdeaProjects\Atividade_8\src\main\resources\fxml\Atividade2\fxml" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainApp">
-    <configuration name="Attvidade2.Controller.MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Attvidade2.Controller.MainApp" />
+  <component name="RunManager" selected="Application.OstribalistasMainApp">
+    <configuration name="ApartequefaltaMainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Atividade5.ApartequefaltaMainApp" />
       <module name="Atividade_8" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\elder\IdeaProjects\javafx-sdk-21.0.8\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Attvidade2.Controller.*" />
+          <option name="PATTERN" value="Atividade5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Atividade2.MainApp" />
+    <configuration name="EqualizeMainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Atividade2.EqualizeMainApp" />
       <module name="Atividade_8" />
       <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\elder\IdeaProjects\javafx-sdk-21.0.8\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
@@ -102,9 +104,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManualdeInstrucao" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Atividade2.ManualdeInstrucao" />
+    <configuration name="OstribalistasMainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Atividade3.OstribalistasMainApp" />
       <module name="Atividade_8" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\elder\IdeaProjects\javafx-sdk-21.0.8\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Atividade3.*" />
@@ -115,12 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ritmo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Atividade2.Ritmo" />
+    <configuration name="TorreEiffelMainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Atividade4.TorreEiffelMainApp" />
       <module name="Atividade_8" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\elder\IdeaProjects\javafx-sdk-21.0.8\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Atividade3.*" />
+          <option name="PATTERN" value="Atividade4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,17 +133,17 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Attvidade2.Controller.MainApp" />
-      <item itemvalue="Application.MainApp" />
-      <item itemvalue="Application.Ritmo" />
-      <item itemvalue="Application.ManualdeInstrucao" />
+      <item itemvalue="Application.ApartequefaltaMainApp" />
+      <item itemvalue="Application.TorreEiffelMainApp" />
+      <item itemvalue="Application.OstribalistasMainApp" />
+      <item itemvalue="Application.EqualizeMainApp" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainApp" />
-        <item itemvalue="Application.Attvidade2.Controller.MainApp" />
-        <item itemvalue="Application.Ritmo" />
-        <item itemvalue="Application.ManualdeInstrucao" />
+        <item itemvalue="Application.OstribalistasMainApp" />
+        <item itemvalue="Application.ApartequefaltaMainApp" />
+        <item itemvalue="Application.EqualizeMainApp" />
+        <item itemvalue="Application.TorreEiffelMainApp" />
       </list>
     </recent_temporary>
   </component>
@@ -174,22 +178,24 @@
       <workItem from="1759429831354" duration="2803000" />
       <workItem from="1759432706806" duration="1982000" />
       <workItem from="1759434729780" duration="15000" />
-      <workItem from="1759946459688" duration="143000" />
+      <workItem from="1759434770508" duration="515000" />
+      <workItem from="1759444016535" duration="498000" />
+      <workItem from="1759444587971" duration="178000" />
+      <workItem from="1759450641757" duration="118000" />
+      <workItem from="1759452441923" duration="94000" />
+      <workItem from="1759453441875" duration="949000" />
+      <workItem from="1759851353749" duration="82000" />
+      <workItem from="1759922998580" duration="10277000" />
+      <workItem from="1759942428090" duration="1353000" />
+      <workItem from="1759943823749" duration="2229000" />
+      <workItem from="1759946095283" duration="357000" />
+      <workItem from="1759946613998" duration="6061000" />
+      <workItem from="1759953906323" duration="753000" />
+      <workItem from="1759959659744" duration="1252000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Atividade2/ManualdeInstrucao.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
