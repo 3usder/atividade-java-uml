@@ -6,11 +6,11 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class EqualizeMainApp extends Application {
+public class    EqualizeMainApp extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("/fxml/novatelaEqualize.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/fxml/Atividade2/fxml/novatelaEqualize.fxml"));
 
         Scene scene = new Scene(root);
         primaryStage.setTitle("Pitty - Equalize");

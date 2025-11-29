@@ -4,7 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9a39643-c913-42d1-a820-3b93736281d0" name="Changes" comment="" />
+    <list default="true" id="c9a39643-c913-42d1-a820-3b93736281d0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Atividade2/MySQLCRUD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Atividade2/MySQLConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/album.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artista.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Imagens/Equalize-Pitty.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Imagens/Equalize-Pitty.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/equalizador.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrutura.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manual.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mirante.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/monumento.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pecafaltante.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personagem.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/relacionamento.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritmo.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Atividade2/Equalizador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Atividade2/Equalizador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Atividade2/EqualizeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Atividade2/EqualizeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Atividade2/EqualizeMainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Atividade2/EqualizeMainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Atividade2/ManualdeInstrucao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Atividade2/ManualdeInstrucao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Atividade2/Ritmo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Atividade2/Ritmo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/novatelaEqualize.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/Atividade2/fxml/novatelaEqualize.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Atividade2/Equalizador.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Atividade2/Equalizador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Atividade2/ManualdeInstrucao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Atividade2/ManualdeInstrucao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Atividade2/Ritmo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Atividade2/Ritmo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/novatelaEqualize.fxml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,11 +44,12 @@
       <list>
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/atividade-java-uml" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -29,53 +59,59 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ApartequefaltaMainApp.executor": "Run",
-    "Application.Artista.executor": "Run",
-    "Application.Attvidade2.Controller.MainApp.executor": "Run",
-    "Application.Carro.executor": "Run",
-    "Application.Casa.executor": "Run",
-    "Application.Equalizador.executor": "Run",
-    "Application.EqualizeMainApp.executor": "Run",
-    "Application.MainApp.executor": "Run",
-    "Application.ManualdeInstrucao.executor": "Run",
-    "Application.Musica.executor": "Run",
-    "Application.OstribalistasMainApp.executor": "Run",
-    "Application.PecaFaltante.executor": "Run",
-    "Application.Pessoa.executor": "Run",
-    "Application.Relacionamento.executor": "Run",
-    "Application.Ritmo.executor": "Run",
-    "Application.TorreEiffelMainApp.executor": "Run",
-    "Application.albumMusical.executor": "Run",
-    "Application.composicaoVisual.executor": "Run",
-    "Application.pecaFaltante.executor": "Run",
-    "Maven.Atividade_8 [org.openjfx:javafx-maven-plugin:0.0.8:run].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/elder/IdeaProjects/Atividade_8",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/elder/IdeaProjects/Atividade_8/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ApartequefaltaMainApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Artista.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Attvidade2.Controller.MainApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Carro.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Casa.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Equalizador.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EqualizeMainApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ManualdeInstrucao.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Musica.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OstribalistasMainApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PecaFaltante.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Pessoa.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Relacionamento.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ritmo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteConexaoSimples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteMySQL.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TorreEiffelMainApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.albumMusical.executor&quot;: &quot;Run&quot;,
+    &quot;Application.composicaoVisual.executor&quot;: &quot;Run&quot;,
+    &quot;Application.pecaFaltante.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Atividade_8 [org.openjfx:javafx-maven-plugin:0.0.8:run].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/elder/IdeaProjects/Atividade_8&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/elder/IdeaProjects/Atividade_8/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\elder\Documents\GitHub\atividade-java-uml\Atividade_8\src\main\resources\fxml\Atividade2\fxml" />
       <recent name="C:\Users\elder\IdeaProjects\Atividade_8\src\main\resources\fxml" />
       <recent name="C:\Users\elder\IdeaProjects\Atividade_8\src\main\resources\fxml\Atividade2\fxml" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OstribalistasMainApp">
+  <component name="RunManager" selected="Application.EqualizeMainApp">
     <configuration name="ApartequefaltaMainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Atividade5.ApartequefaltaMainApp" />
       <module name="Atividade_8" />
@@ -118,13 +154,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TorreEiffelMainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Atividade4.TorreEiffelMainApp" />
+    <configuration name="TesteConexaoSimples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Atividade2.TesteConexaoSimples" />
       <module name="Atividade_8" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\elder\IdeaProjects\javafx-sdk-21.0.8\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Atividade4.*" />
+          <option name="PATTERN" value="Atividade2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteMySQL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Atividade2.TesteMySQL" />
+      <module name="Atividade_8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Atividade2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,17 +181,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.TesteConexaoSimples" />
+      <item itemvalue="Application.TesteMySQL" />
       <item itemvalue="Application.ApartequefaltaMainApp" />
-      <item itemvalue="Application.TorreEiffelMainApp" />
-      <item itemvalue="Application.OstribalistasMainApp" />
       <item itemvalue="Application.EqualizeMainApp" />
+      <item itemvalue="Application.OstribalistasMainApp" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OstribalistasMainApp" />
-        <item itemvalue="Application.ApartequefaltaMainApp" />
         <item itemvalue="Application.EqualizeMainApp" />
-        <item itemvalue="Application.TorreEiffelMainApp" />
+        <item itemvalue="Application.TesteConexaoSimples" />
+        <item itemvalue="Application.TesteMySQL" />
+        <item itemvalue="Application.ApartequefaltaMainApp" />
+        <item itemvalue="Application.OstribalistasMainApp" />
       </list>
     </recent_temporary>
   </component>
@@ -192,6 +242,15 @@
       <workItem from="1759946613998" duration="6061000" />
       <workItem from="1759953906323" duration="753000" />
       <workItem from="1759959659744" duration="1252000" />
+      <workItem from="1759972885116" duration="280000" />
+      <workItem from="1760478197118" duration="1188000" />
+      <workItem from="1760486302188" duration="2652000" />
+      <workItem from="1760633400739" duration="6000" />
+      <workItem from="1761096692979" duration="324000" />
+      <workItem from="1761155076280" duration="13000" />
+      <workItem from="1764197828527" duration="354000" />
+      <workItem from="1764422713006" duration="13476000" />
+      <workItem from="1764438972232" duration="507000" />
     </task>
     <servers />
   </component>
